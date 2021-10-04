@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title><i>Framework Laptop Review Meeting:</i></title>
+    <meta charset="utf-8" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-192x192.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <header>CSE110 Lab2</header>
+    <main>
+      <div id="UselessDiv"></div>
+      <div id="UselessSpan"></div>
+      <h1>Framework Laptop Review Meeting</h1>
+      <h2>10/02/2021</h2>
+      <hr />
+      <center><img src="images/framework.jpeg" width="60%" /></center>
+      <nav>
+        <ul>
+          <li>
+            <a href="http://frame.work/">Framework laptop official website</a>
+          </li>
+          <li><a href="#AttendanceList">Attendance List</a></li>
+          <li><a href="#Agenda List">Agenda List</a></li>
+        </ul>
+      </nav>
+      <hr />
+
+      <section>
+        <h3 id="AttendanceList">Attendance List</h3>
+        <ul>
+          <li><b>Yibo Wei</b></li>
+          <li>Lorem Ipsum</li>
+          <li>Dolor Sit</li>
+          <li>Amet Consectetur</li>
+          <li>Adipisicing Eit</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3 id="AgendaList">Agenda List</h3>
+        <ol>
+          <li>Discuss about Framework's visions, missions, and promises</li>
+          <li>Teardown and review on the DIY experiece</li>
+          <li>
+            Testing the build quality, hardware, software, and performance
+          </li>
+          <li>Give the framework laptop a fair rating</li>
+        </ol>
+      </section>
+
+      <section>
+        <h3 id="MeetingNotes">Meeting Notes</h3>
+        <p>
+          All of us highly appreciate the visions and missions of framework,
+          which emphasize the users' right to repair.
+        </p>
+        <center><img src="images/teardown.jpg" width="60%" /></center>
+        <p>This is the teardown video of the Framework laptop:</p>
+        <center>
+          <video controls width="60%">
+            <source src="videos/teardown.mp4" type="video/mp4" />
+          </video>
+        </center>
+        <p>
+          In the middle of the meeting, Yibo decided to show us a piece of music
+          that he composed.
+        </p>
+        <center>
+          <audio controls>
+            <source src="audios/Wind Ensemble Demo.mp3" type="audio/mp3" />
+          </audio>
+        </center>
+      </section>
+
+      <form>
+        <p>How do you like the Framework Laptop?</p>
+        <fieldset>
+          <input type="radio" id="verygood" />
+          <label for="verygood">Very good</label> <br />
+          <input type="radio" id="good" />
+          <label for="good">Good</label> <br />
+          <input type="radio" id="average" />
+          <label for="average">Average</label> <br />
+          <input type="radio" id="bad" />
+          <label for="bad">Bad</label> <br />
+          <input type="radio" id="verybad" />
+          <label for="verybad">Very bad</label> <br />
+        </fieldset>
+        <p>What's your favorite part about Framework?</p>
+        <fieldset>
+          <input type="checkbox" id="upgradable" />
+          <label for="upgradable">Upgradable</label> <br />
+          <input type="checkbox" id="repairable" />
+          <label for="repairable">Repairable</label> <br />
+          <input type="checkbox" id="thinlight" />
+          <label for="thinlight">Thin and Light</label> <br />
+          <label for="other">Other:</label> <br />
+          <textarea name="other" id="other" cols="90" rows="10"></textarea>
+          <br />
+          <button>Save</button>
+        </fieldset>
+        <fieldset>
+          <label for="purchased">Did you purchased a Framework Laptop?</label>
+          <select name="purchased" id="purchased">
+            <option value="no">No</option>
+            <option value="yes">Yes</option>
+          </select>
+          <br />
+
+          <label for="choice">If no, what laptop are you using now? </label>
+          <input list="brands" id="choice" name="choice" />
+
+          <datalist id="brands">
+            <option value="Apple"></option>
+            <option value="Microsoft"></option>
+            <option value="Dell"></option>
+            <option value="HP"></option>
+            <option value="Lenovo"></option>
+            <option value="Acer"></option>
+            <option value="Asus"></option>
+            <option value="LG"></option>
+            <option value="Samsung"></option>
+            <option value="Other"></option>
+          </datalist>
+          <br />
+          <label for="date">If yes, when did you order the laptop?</label>
+          <input type="date" />
+        </fieldset>
+
+        <label for="email"
+          >Enter your Email to share your thoughts with us!</label
+        >
+        <input
+          type="Email:"
+          id="email"
+          name="email"
+          placeholder="abc@example.com"
+        /><button>Submit</button>
+      </form>
+    </main>
+    <footer>
+      <p>
+        <strong>Contact Email:</strong><br /><em>david_wyb2001@outlook.com</em>
+      </p>
+    </footer>
+  </body>
+</html>

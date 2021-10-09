@@ -24,6 +24,7 @@
     display: flexbox;
     width: 70%;
     margin: auto;
+    padding: 40px;
     border-radius: 10px;
     background: #fad02c;
     box-shadow: inset 2px 3px 9px rgba(0, 0, 0, 0.4);
